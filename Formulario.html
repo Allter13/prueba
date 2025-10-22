@@ -1,0 +1,52 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon"/>
+</head>
+
+<body>
+<!--action es para el lugar donde quieras que te mande los datos-->
+    <form action="" method="post">
+        <!-- Campo de texto -->
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Ingresa tu nombre"><br><br>
+
+        <!-- Campo de correo electrónico -->
+        <label for="email">Correo Electrónico:</label>
+        <input type="email" id="email" name="email" placeholder="Ingresa tu correo"><br><br>
+
+        <!-- Área de texto -->
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" rows="4" cols="50"
+            placeholder="Escribe tu mensaje aquí"></textarea><br><br>
+
+        <!-- Casillas de verificación -->
+        <label>¿Qué lápices son mejores para el dibujo técnico?</label><br>
+        <label><input type="checkbox" name="intereses" value="H"> H</label><br>
+        <label><input type="checkbox" name="intereses" value="HB"> HB</label><br>
+        <label><input type="checkbox" name="intereses" value="B"> B</label><br><br>
+
+        <!-- Lista desplegable -->
+        <label for="vistas">¿Cuántas vistas se suelen representar de una figura?</label>
+        <select id="vistas" name="vistas">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+        </select><br><br>
+
+        <!-- Botones de radio -->
+        <label>¿Qué es acotar?:</label><br>
+        <label><input type="radio" name="¿Qué es acotar?" value="Poner las medidas"> Poner las medidas</label><br>
+        <label><input type="radio" name="¿Qué es acotar?" value="Dibujar las vistas"> Dibujar las vistas</label><br>
+        <label><input type="radio" name="¿Qué es acotar?" value="Conocer las herramientas"> Conocer las herramientas</label><br><br>
+
+        <!-- Botón de envío -->
+        <button type="submit">Enviar</button>
+    </form>
+
+</body>
+
+</html>
