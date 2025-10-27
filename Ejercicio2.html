@@ -19,10 +19,18 @@
             #imagen{
                 background-color: aliceblue;
                 margin: 20px;
-                animation-name: ejemplo-animacion;
-  animation-duration: 3s;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear; /* o ease, ease-in, etc. */
+                
+                width: 200px; /* Ancho de la imagen */
+                height: 200px; /* Alto de la imagen */
+                animation: mover-imagen 3s infinite alternate; /* Nombre de la animación, duración, repetición y dirección */
+                }
+
+                @keyframes mover-imagen {
+                from {
+                transform: translateX(0); /* Posición inicial */
+                }
+                to {
+                transform: translateX(100px); /* Posición final */
                 }
 
         </style>
