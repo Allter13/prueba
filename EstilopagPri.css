@@ -1,0 +1,32 @@
+
+            body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: aquamarine;
+            }
+            h1{color:blue}
+            .Elementos{
+                background-color: aqua;
+                margin:0 auto;
+                text-align: center;/*Esto funciona para centrar texto*/
+            }
+        .Tecnología {
+                width: 300px;  /* Ancho del contenido */
+                height: 200px;  /* Altura del contenido */
+                padding: 10px;  /* Relleno */
+                border: 2px solid rgb(231, 3, 3);  /* Borde */
+                margin-left: 20%;  /* Margen */
+                background-color: rgb(230, 221, 173);  /* Color de fondo del contenido */
+              
+                } 
+        
+        .Cursohtml{
+                width: 300px;  /* Ancho del contenido */
+                height: 200px;  /* Altura del contenido */
+                padding: 10px;  /* Relleno */
+                border: 2px solid black;  /* Borde */
+                margin-left: 60%;
+                 
+                background-color: rgb(219, 173, 230);  /* Color de fondo del contenido */
+              }
+          
+            
